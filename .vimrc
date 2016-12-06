@@ -1,4 +1,4 @@
-" @author - Pranay Patil
+"@author - Pranay Patil
 
 "sets indents to 2 spaces
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
@@ -8,6 +8,12 @@ set autoindent
 
 "sets line numbers
 set number
+
+"ignores cases when searching (/The will find both 'The' and 'the')
+set ignorecase
+
+"doesn't ignore case if upper case is used (/The will find 'The' but not 'the')
+set smartcase
 
 "highlights the column at the 80th character
 set colorcolumn=80
