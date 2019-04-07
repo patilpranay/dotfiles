@@ -1,0 +1,12 @@
+[flake8]
+# Place at ~/.config/flake8
+ignore =
+
+# PEP8 standards:
+# E251: No spaces around '=' in keyword argument or a default param value.
+# F401: Module imported but unused.
+# E402: Module level import not at top of file.
+# F403: from _ import * - unable to detect undefined names.
+# E501: Line too long (>79 characters).
+# W504: Line break after binary operator.
+# ...
