@@ -1,37 +1,48 @@
 "@author - Pranay Patil
 
-"sets indents to 2 spaces
+"Set indents to 2 spaces.
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
-"sets autoindent
+"Set autoindent.
 set autoindent
 
-"sets line numbers
+"Display line numbers on the left hand side.
 set number
 
-"ignores cases when searching (/The will find both 'The' and 'the')
+"Ignore case when searching; /the will find both 'The' and 'the'.
 set ignorecase
 
-"doesn't ignore case if upper case is used (/The will find 'The' but not 'the')
+"Do not ignore case if upper case used; /The will find 'The' but not 'the'.
 set smartcase
 
-"highlights the column at the 80th character
+"Turn syntax on; needed to set a custom color scheme (e.g., solarized).
+"https://stackoverflow.com/questions/33380451/is-there-a-difference-between-syntax-on-and-syntax-enable-in-vimscript
+if !exists("g:syntax_on")
+    syntax enable
+endif
+
+"Highlight the column at the 80th character.
 set colorcolumn=80
 
-"sets the solarized color theme
-syntax enable
+"Set the Solarized color theme.
 set background=light
-colorscheme solarized
+"colorscheme solarized
 
-"removes trailing spaces
+"Remove trailing spaces.
 function! TrimWhiteSpace()
     %s/\s\+$//e
     endfunction
 
     nnoremap <silent> <Leader>rts :call TrimWhiteSpace()<CR>
 
-" Calls TrimWhiteSpace() when these events occur
+"Call TrimWhiteSpace() when these events occur.
 autocmd FileWritePre    * :call TrimWhiteSpace()
 autocmd FileAppendPre   * :call TrimWhiteSpace()
 autocmd FilterWritePre  * :call TrimWhiteSpace()
 autocmd BufWritePre     * :call TrimWhiteSpace()
+
+"Always display the status line.
+set laststatus=2
+
+"Display the full filepath in the status line.
+set statusline+=%F
