@@ -9,4 +9,5 @@ ignore =
 # F403: from _ import * - unable to detect undefined names.
 # E501: Line too long (>79 characters).
 # W504: Line break after binary operator.
+# E111: Indentation is not a multiple of four.
 # ...
