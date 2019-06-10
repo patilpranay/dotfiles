@@ -24,10 +24,6 @@ endif
 "Highlight the column at the 80th character.
 set colorcolumn=80
 
-"Set the Solarized color theme.
-set background=light
-"colorscheme solarized
-
 "Remove trailing spaces.
 function! TrimWhiteSpace()
     %s/\s\+$//e
