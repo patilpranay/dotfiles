@@ -1,0 +1,8 @@
+[user]
+	name = Pranay Patil
+	email =
+	signingkey =
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
