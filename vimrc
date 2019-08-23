@@ -42,3 +42,18 @@ set laststatus=2
 
 "Display the full filepath in the status line.
 set statusline+=%F
+
+"Turn on spell check for US English.
+"set spell spelllang=en_us
+
+"Use fzf (fuzzy finder).
+set rtp+=/home/linuxbrew/.linuxbrew/opt/fzf
+
+"Tab to switch to next open buffer
+nnoremap <Tab> :bnext<cr>
+
+"Shift + Tab to switch to previous open buffer
+nnoremap <S-Tab> :bprevious<cr>
+
+"Press leader key (default is \) twice to cycle between last two open buffers
+nnoremap <leader><leader> <c-^>
