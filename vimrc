@@ -57,3 +57,6 @@ nnoremap <S-Tab> :bprevious<cr>
 
 "Press leader key (default is \) twice to cycle between last two open buffers
 nnoremap <leader><leader> <c-^>
+
+"Disable custom indenter from https://github.com/leafgarland/typescript-vim
+let g:typescript_indent_disable = 1
