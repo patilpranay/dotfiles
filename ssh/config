@@ -1,0 +1,3 @@
+# Source: https://smallstep.com/blog/ssh-tricks-and-tips/
+ServerAliveInterval 5
+ServerAliveCountMax 1
