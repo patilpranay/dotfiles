@@ -1,0 +1,8 @@
+Homebrew - [https://docs.brew.sh/Homebrew-on-Linux]
+ripgrep - [https://github.com/BurntSushi/ripgrep], [https://github.com/jremmen/vim-ripgrep]
+fzf - [https://github.com/junegunn/fzf]
+Universal Ctags - [https://github.com/universal-ctags/ctags]
+GNU Global - [https://www.gnu.org/software/global/]
+CheckInstall - [https://help.ubuntu.com/community/CheckInstall]
+
+TODO: add Vim syntax checker plugin
