@@ -67,3 +67,6 @@ source /usr/local/share/gtags/gtags.vim
 "Map gtags-cscope to cscope
 set csprg=gtags-cscope
 cs add GTAGS
+
+"Set automatic width limit for text lines
+":setlocal textwidth=79
