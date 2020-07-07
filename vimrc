@@ -60,3 +60,10 @@ nnoremap <leader><leader> <c-^>
 
 "Disable custom indenter from https://github.com/leafgarland/typescript-vim
 let g:typescript_indent_disable = 1
+
+"Plugins
+source /usr/local/share/gtags/gtags.vim
+
+"Map gtags-cscope to cscope
+set csprg=gtags-cscope
+cs add GTAGS
