@@ -33,3 +33,6 @@ fo() {
     [ "$key" = ctrl-o ] && open "$file" || ${EDITOR:-vim} "$file"
   fi
 }
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
