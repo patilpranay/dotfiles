@@ -75,4 +75,4 @@ cs add GTAGS
 set fo+=2
 
 "\s to search and replace occurrences of the current word under the cursor
-:nnoremap <Leader>s :%s/\<<C-r><C-w>\>//gc<Left><Left>
+:nnoremap <Leader>s :%s/\<<C-r><C-w>\>//gc<Left><Left><Left>
