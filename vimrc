@@ -73,3 +73,6 @@ cs add GTAGS
 
 "Follow indentation of second line when reformatting paragraph
 set fo+=2
+
+"\s to search and replace occurrences of the current word under the cursor
+:nnoremap <Leader>s :%s/\<<C-r><C-w>\>//gc<Left><Left>
