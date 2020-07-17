@@ -1,6 +1,6 @@
-# Search for files.
+# Search for files (case-insensitive).
 f() {
-  find . -name "*$@*"
+  find . -iname "*$@*"
 }
 
 # For GnuPG signing to work correctly.
