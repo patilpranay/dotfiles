@@ -79,3 +79,8 @@ set fo+=2
 
 "Make the delete key work correctly after building Vim from source
 set backspace=indent,eol,start
+
+"Enable the Java language server
+"java-language-server: https://github.com/georgewfraser/java-language-server
+"vim-lsc: https://github.com/natebosch/vim-lsc
+let g:lsc_server_commands = {'java': '<full-path-to-java-language-server>/java-language-server/dist/lang_server_linux.sh'}
