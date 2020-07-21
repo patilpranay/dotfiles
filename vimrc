@@ -84,3 +84,8 @@ set backspace=indent,eol,start
 "java-language-server: https://github.com/georgewfraser/java-language-server
 "vim-lsc: https://github.com/natebosch/vim-lsc
 let g:lsc_server_commands = {'java': '<full-path-to-java-language-server>/java-language-server/dist/lang_server_linux.sh'}
+
+"vim-lsc options: K to show hover
+let g:lsc_auto_map = {
+    \ 'ShowHover': v:true,
+    \}
