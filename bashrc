@@ -34,5 +34,9 @@ fo() {
   fi
 }
 
+# Set Vim as the default editor
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+# Add support for a ripgrep configuration file
+export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
