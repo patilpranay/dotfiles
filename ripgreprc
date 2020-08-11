@@ -1,5 +1,20 @@
-# Searches case insensitively if pattern is lowercase; sensitively otherwise
+# Search case insensitively if pattern is lowercase; sensitively otherwise
 --smart-case
 
 # Use glob patterns to include/exclude files or folders
-# --glob=
+# --glob=<some_pattern>
+# --glob=!<some_pattern>
+
+# NOTE: If you use glob on the command line, put quotes around your patterns
+# so that the shell doesn't expand any *
+# rg '<search_pattern> --glob '<filter_pattern>'
+# rg '<search_pattern> -g '<filter_pattern>'
+
+# Filter the search based on file types
+# rg '<search_pattern>' --type java
+# rg '<search_pattern>' --tjava
+# rg '<search_pattern>' --type-not java
+# rg '<search_pattern>' --Tjava
+
+# See the list of all types and what globs they consist of
+# rg --type-list
