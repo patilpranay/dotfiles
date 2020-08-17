@@ -15,6 +15,9 @@ set ignorecase
 "Do not ignore case if upper case used; /The will find 'The' but not 'the'.
 set smartcase
 
+"Search highlighting; use :noh to turn off highlighting until the next search
+set hlsearch
+
 "Turn syntax on; needed to set a custom color scheme (e.g., solarized).
 "https://stackoverflow.com/questions/33380451/is-there-a-difference-between-syntax-on-and-syntax-enable-in-vimscript
 if !exists("g:syntax_on")
