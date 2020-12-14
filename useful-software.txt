@@ -1,5 +1,4 @@
 ## General
-
 Homebrew - [https://docs.brew.sh/Homebrew-on-Linux]
 ripgrep - [https://github.com/BurntSushi/ripgrep], [https://github.com/jremmen/vim-ripgrep]
 fzf - [https://github.com/junegunn/fzf]
@@ -13,3 +12,6 @@ Magic Wormhole - [https://github.com/warner/magic-wormhole]
 ## Java Packages
 Fluent Assertions - [https://assertj.github.io/doc/]
 Eclipse Collections - [http://www.eclipse.org/collections/]
+
+## Python Packages
+memory-profiler - [https://pypi.org/project/memory-profiler/]
