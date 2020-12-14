@@ -1,3 +1,5 @@
+## General
+
 Homebrew - [https://docs.brew.sh/Homebrew-on-Linux]
 ripgrep - [https://github.com/BurntSushi/ripgrep], [https://github.com/jremmen/vim-ripgrep]
 fzf - [https://github.com/junegunn/fzf]
@@ -7,3 +9,7 @@ CheckInstall - [https://help.ubuntu.com/community/CheckInstall]
 Vim Language Server Client - [https://github.com/natebosch/vim-lsc]
 Java Language Server - [https://github.com/georgewfraser/java-language-server]
 Magic Wormhole - [https://github.com/warner/magic-wormhole]
+
+## Java Packages
+Fluent Assertions - [https://assertj.github.io/doc/]
+Eclipse Collections - [http://www.eclipse.org/collections/]
