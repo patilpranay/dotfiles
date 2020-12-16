@@ -11,6 +11,12 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# https://github.com/Aloxaf/fzf-tab
+source ~/.zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
+
+# https://github.com/agkozak/zsh-z
+source ~/.zsh/plugins/zsh-z/zsh-z.plugin.zsh
+
 export PROMPT='%m %B%1~%b %# '
 # export PATH=
 export VISUAL=vim
