@@ -11,20 +11,21 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-# https://github.com/Aloxaf/fzf-tab
-source ~/.zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
-zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS} # For colors with fzf-tab
-
 # https://github.com/agkozak/zsh-z
 source ~/.zsh/plugins/zsh-z/zsh-z.plugin.zsh
 
 # Show colors with ls
-alias dircolors='gdircolors' # macOS only
-alias ls='ls -G' # macOS only
+export CLICOLOR=1 # macOS only
+export LSCOLORS=gxfxfxdeBxegheabagacad # macOS only
 alias ls='ls --color' # Linux only
 
 # https://github.com/joel-porquet/zsh-dircolors-solarized
+alias dircolors='gdircolors' # macOS only
 source ~/.zsh/plugins/zsh-dircolors-solarized/zsh-dircolors-solarized.zsh
+
+# https://github.com/Aloxaf/fzf-tab
+source ~/.zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS} # For colors with fzf-tab
 
 export PROMPT='%m %B%1~%b %# '
 # export PATH=
