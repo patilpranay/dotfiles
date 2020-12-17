@@ -50,7 +50,7 @@ set statusline+=%F
 "set spell spelllang=en_us
 
 "Use fzf (fuzzy finder).
-set rtp+=/home/linuxbrew/.linuxbrew/opt/fzf
+set rtp+=/usr/local/opt/fzf
 
 "Tab to switch to next open buffer
 nnoremap <Tab> :bnext<cr>
