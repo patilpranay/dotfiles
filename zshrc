@@ -13,6 +13,7 @@ compinit
 
 # https://github.com/Aloxaf/fzf-tab
 source ~/.zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS} # For colors with fzf-tab
 
 # https://github.com/agkozak/zsh-z
 source ~/.zsh/plugins/zsh-z/zsh-z.plugin.zsh
