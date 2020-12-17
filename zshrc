@@ -17,11 +17,13 @@ source ~/.zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
 # https://github.com/agkozak/zsh-z
 source ~/.zsh/plugins/zsh-z/zsh-z.plugin.zsh
 
+# Show colors with ls
+alias dircolors='gdircolors' # macOS only
+alias ls='ls -G' # macOS only
+alias ls='ls --color' # Linux only
+
 # https://github.com/joel-porquet/zsh-dircolors-solarized
 source ~/.zsh/plugins/zsh-dircolors-solarized/zsh-dircolors-solarized.zsh
-
-# Show colors with ls (Linux only)
-alias ls='ls --color'
 
 export PROMPT='%m %B%1~%b %# '
 # export PATH=
