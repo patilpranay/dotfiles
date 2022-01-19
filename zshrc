@@ -59,3 +59,7 @@ fo() {
 }
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# vi mode for command line and enable reverse search
+bindkey -v
+bindkey "^R" history-incremental-search-backward
