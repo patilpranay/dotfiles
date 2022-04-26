@@ -15,3 +15,6 @@ Eclipse Collections - [http://www.eclipse.org/collections/]
 
 ## Python Packages
 memory-profiler - [https://pypi.org/project/memory-profiler/]
+
+## Vim Packages
+Typescript Syntax for Vim - [https://github.com/leafgarland/typescript-vim]
