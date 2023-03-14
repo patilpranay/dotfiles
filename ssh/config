@@ -2,6 +2,6 @@
 ServerAliveInterval 5
 ServerAliveCountMax 1
 
-Host [CREATE NICKNAME HERE]
-  HostName [ADD EXTERNAL IP HERE]
-  User [ADD USERNAME HERE]
+Host $CREATE_NICKNAME_HERE
+  HostName $ADD_EXTERNAL_IP_HERE
+  User $ADD_USERNAME_HERE
