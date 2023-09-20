@@ -63,3 +63,6 @@ fo() {
 # vi mode for command line and enable reverse search
 bindkey -v
 bindkey "^R" history-incremental-search-backward
+
+# Navigate to iCloud Drive
+alias icloud='cd Library/Mobile\ Documents/com\~apple\~CloudDocs'
