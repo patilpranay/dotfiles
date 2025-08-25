@@ -1,26 +1,26 @@
-## General
+**General**
 - [Homebrew](https://docs.brew.sh/Homebrew-on-Linux)
-ripgrep - [https://github.com/BurntSushi/ripgrep], [https://github.com/jremmen/vim-ripgrep]
-fzf - [https://github.com/junegunn/fzf]
-Universal Ctags - [https://github.com/universal-ctags/ctags]
-GNU Global - [https://www.gnu.org/software/global/]
-CheckInstall - [https://help.ubuntu.com/community/CheckInstall]
-Vim Language Server Client - [https://github.com/natebosch/vim-lsc]
-Java Language Server - [https://github.com/georgewfraser/java-language-server]
-Magic Wormhole - [https://github.com/warner/magic-wormhole]
+- ripgrep - [https://github.com/BurntSushi/ripgrep], [https://github.com/jremmen/vim-ripgrep]
+- fzf - [https://github.com/junegunn/fzf]
+- Universal Ctags - [https://github.com/universal-ctags/ctags]
+- GNU Global - [https://www.gnu.org/software/global/]
+- CheckInstall - [https://help.ubuntu.com/community/CheckInstall]
+- Vim Language Server Client - [https://github.com/natebosch/vim-lsc]
+- Java Language Server - [https://github.com/georgewfraser/java-language-server]
+- Magic Wormhole - [https://github.com/warner/magic-wormhole]
 
-## Kubernetes
+**Kubernetes**
 - [k9s](https://k9scli.io/topics/install/)
 
-## Java Packages
+**Java Packages**
 - [Fluent Assertions](https://assertj.github.io/doc/)
 - [Eclipse Collections](http://www.eclipse.org/collections/)
 
-## Python Packages
+**Python Packages**
 - [memory-profiler](https://pypi.org/project/memory-profiler/)
 
-## Vim Packages
+**Vim Packages**
 - [Typescript Syntax for Vim](https://github.com/leafgarland/typescript-vim)
 
-## Reading
+**Reading**
 - [SQL vs NoSQL](https://www.ibm.com/blog/sql-vs-nosql/)
