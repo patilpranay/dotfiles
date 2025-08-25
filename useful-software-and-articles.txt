@@ -1,5 +1,5 @@
 ## General
-Homebrew - [https://docs.brew.sh/Homebrew-on-Linux]
+- [Homebrew](https://docs.brew.sh/Homebrew-on-Linux)
 ripgrep - [https://github.com/BurntSushi/ripgrep], [https://github.com/jremmen/vim-ripgrep]
 fzf - [https://github.com/junegunn/fzf]
 Universal Ctags - [https://github.com/universal-ctags/ctags]
@@ -8,6 +8,9 @@ CheckInstall - [https://help.ubuntu.com/community/CheckInstall]
 Vim Language Server Client - [https://github.com/natebosch/vim-lsc]
 Java Language Server - [https://github.com/georgewfraser/java-language-server]
 Magic Wormhole - [https://github.com/warner/magic-wormhole]
+
+## Kubernetes
+- [k9s](https://k9scli.io/topics/install/)
 
 ## Java Packages
 Fluent Assertions - [https://assertj.github.io/doc/]
