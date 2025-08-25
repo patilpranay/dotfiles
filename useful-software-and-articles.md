@@ -13,14 +13,14 @@ Magic Wormhole - [https://github.com/warner/magic-wormhole]
 - [k9s](https://k9scli.io/topics/install/)
 
 ## Java Packages
-Fluent Assertions - [https://assertj.github.io/doc/]
-Eclipse Collections - [http://www.eclipse.org/collections/]
+- [Fluent Assertions](https://assertj.github.io/doc/)
+- [Eclipse Collections](http://www.eclipse.org/collections/)
 
 ## Python Packages
-memory-profiler - [https://pypi.org/project/memory-profiler/]
+- [memory-profiler](https://pypi.org/project/memory-profiler/)
 
 ## Vim Packages
-Typescript Syntax for Vim - [https://github.com/leafgarland/typescript-vim]
+- [Typescript Syntax for Vim](https://github.com/leafgarland/typescript-vim)
 
 ## Reading
-SQL vs NoSQL - [https://www.ibm.com/blog/sql-vs-nosql/]
+- [SQL vs NoSQL](https://www.ibm.com/blog/sql-vs-nosql/)
